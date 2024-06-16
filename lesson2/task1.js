@@ -1,23 +1,23 @@
 // HomeWork
-({}).prototype === ({}).__proto__;
+console.log(({}).prototype === ({}).__proto__);
 
 function sayHello() {};
-sayHello.prototype === sayHello.__proto__;
+console.log(sayHello.prototype === sayHello.__proto__);
 
 function sayHello() {};
 function sayGoodbye() {};
-sayHello.__proto__ === sayGoodbye.__proto__;
-sayHello.prototype === sayGoodbye.prototype;
+console.log(sayHello.__proto__ === sayGoodbye.__proto__);
+console.log(sayHello.prototype === sayGoodbye.prototype);
 
 let age = 18;
-age.prototype === Number.prototype;
-age.__proto__ === Number.prototype;
+console.log(age.prototype === Number.prototype);
+console.log(age.__proto__ === Number.prototype);
 
 class MyClass {};
-MyClass.__proto__ === Function.prototype;
+console.log(MyClass.__proto__ === Function.prototype);
 
 function sayHello() {};
-sayHello.__proto__;
+console.log(sayHello.__proto__);
 
 const count = 12;
-count.__proto__;
+console.log(count.__proto__);
