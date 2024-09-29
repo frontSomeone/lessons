@@ -10,6 +10,6 @@ const cardData = [
 
 const cards = cardData.map(el => new Element('div', 'card', el).get())
 
-const content = new Element('div', 'content', cards);
+const content = new Element('div', 'contentOld', cards);
 
 export default content;
